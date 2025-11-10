@@ -1,4 +1,2 @@
 #!/bin/bash
-echo {a..o}{a..n} | grep '\n'
-echo {o..z}{p..z} | grep '\n'
-
+echo {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z} | tr ' ' '\n'
