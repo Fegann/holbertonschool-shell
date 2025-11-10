@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $PATH | echo $((a+1)) | a=wc ":"
+echo "$PATH" | tr ':' '\n' | wc -l
+
