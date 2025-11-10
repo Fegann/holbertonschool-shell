@@ -1,0 +1,4 @@
+#!/bin/bash
+echo {a..o}{a..n} | grep '\n'
+echo {o..z}{p..z} | grep '\n'
+
