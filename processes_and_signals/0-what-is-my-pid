@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Write its owd PID
+pgrep bash | awk 'NR==2'
