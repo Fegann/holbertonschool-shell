@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+#
+a=$(ps -aux| grep 4-to_infinity_and_beyond | grep -v grep | awk 'NR==1 {print $2}')
+kill "$a"
